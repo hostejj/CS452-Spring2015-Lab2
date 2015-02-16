@@ -103,16 +103,6 @@ function defineShape(){
 		vec2( 0.0, 0.4 )
     ];
 	
-	var vertexColors = [
-        [ 1.0, 0.0, 0.0, 1.0 ],  // red
-        [ 1.0, 1.0, 0.0, 1.0 ],  // yellow
-        [ 0.0, 1.0, 0.0, 1.0 ],  // green
-        [ 0.0, 0.0, 1.0, 1.0 ],  // blue
-        [ 1.0, 0.0, 1.0, 1.0 ],  // magenta
-        [ 1.0, 1.0, 1.0, 1.0 ],  // white
-        [ 0.0, 1.0, 1.0, 1.0 ]   // cyan
-    ];
-	
 	//clear the array
 	while(points.length > 0) {
 		points.pop();
