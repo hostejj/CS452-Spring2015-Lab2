@@ -1,1 +1,9 @@
-name, date, description
+Johnathon Hoste, 2/1/2015 ,Lab 2
+
+For my solution to this problem the simple shape I chose to draw is a star. I set the color
+in my fragment shader to a uniform variable that I could change in my program. To get the
+three different colors I drew the star in three separate parts setting each part to a different 
+color. To accept keyboard I used the window.onkeydown to read in a key and used a switch statement
+to determine what action to take if any. When the '1' key is pressed I simply rerender the initial
+object. When a key is pressed to move the shape I alter the location of the vertices of the shape
+by a small delta value. Then I reload the data into a buffer and rerender the shape.
